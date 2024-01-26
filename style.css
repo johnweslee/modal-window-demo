@@ -18,7 +18,7 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  background: linear-gradient(to top left, #28b487, #7dd56f);
+  background: linear-gradient(to top left, #e5ff00, #830202);
 }
 
 .show-modal {
@@ -27,8 +27,8 @@ body {
   padding: 1.75rem 3.5rem;
   margin: 5rem 2rem;
   border: none;
-  background-color: #fff;
-  color: #444;
+  background: linear-gradient(to top left, #55ff7f, #0099ff);
+  color: #ffffff;
   border-radius: 10rem;
   cursor: pointer;
 }
@@ -38,7 +38,7 @@ body {
   top: 1.2rem;
   right: 2rem;
   font-size: 5rem;
-  color: #333;
+  color: white;
   cursor: pointer;
   border: none;
   background: none;
@@ -51,6 +51,7 @@ h1 {
 
 p {
   font-size: 1.8rem;
+  text-align: justify;
 }
 
 /* -------------------------- */
@@ -65,8 +66,8 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 70%;
-
-  background-color: white;
+  color: white;
+  background: linear-gradient(to top left, #008cff, #495e00);
   padding: 6rem;
   border-radius: 5px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
